@@ -1,9 +1,13 @@
 /* Web Calculator */
 
 .web-calc {
-   background-color: lightblue;
+   border-radius: 0.5rem;
+   background-color: gainsboro;
    transition: background-color 1s;
+   transition: color 1s;
+   padding: 1rem;
    }
 .web-calc.alt-theme {
-   background-color: gold;
+   color: white;
+   background-color: dimgray;
    }
