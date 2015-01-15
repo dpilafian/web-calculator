@@ -7,6 +7,23 @@
    transition: color 1s;
    padding: 1rem;
    }
+.web-calc .calc-header {
+   font-size: 1.3rem;
+   font-weight: bold;
+   margin-bottom: 10px;
+   }
+.web-calc .calc-theme {
+   float: right;
+   }
+.web-calc .calc-value input {
+   text-align: right;
+   }
+.web-calc .calc-buttons {
+   margin-bottom: 15px;
+   }
+.web-calc .calc-accumulator {
+   font-weight: bold;
+   }
 .web-calc.alt-theme {
    color: white;
    background-color: dimgray;
