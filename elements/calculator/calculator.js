@@ -25,6 +25,9 @@ var calculator = {
       output.text(result).hide().fadeIn();
       console.log('Web Calculator:', model.name, accumulator, value, '-->', result);
       },
+   toggleTheme: function(elem) {
+      elem.closest('.web-calc').toggleClass('alt-theme');
+      },
    setup: function() {
       dna.clone('calc-button', calculator.buttons, { html: true });
       $('.web-calc .calc-value input').focus();

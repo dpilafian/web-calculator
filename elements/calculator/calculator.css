@@ -2,4 +2,8 @@
 
 .web-calc {
    background-color: lightblue;
+   transition: background-color 1s;
+   }
+.web-calc.alt-theme {
+   background-color: gold;
    }
