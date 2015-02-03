@@ -1,5 +1,5 @@
 # Web Calculator
-Simple calculator to demonstrate data-driven templating
+*Simple calculator to demonstrate data-driven templating*
 
 Operations:
    * Add

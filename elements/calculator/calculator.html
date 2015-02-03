@@ -1,10 +1,10 @@
-<!-- Component: Web Calculator -->
-<div class=web-calc>
-   <button class=calc-theme data-click=calculator.toggleTheme>Change Theme</button>
-   <div class=calc-header>Calculator</div>
-   <div class=calc-value><input type=number step=any value=0></div>
-   <div class=calc-buttons>
-      <button id=calc-button class=dna-template data-click=calculator.compute>~~display~~</button>
+<!-- Component: Calculator -->
+<div id=calculator class=dna-template>
+   <button class=calculator-theme data-click=calculator.toggleTheme>Change Theme</button>
+   <div class=calculator-header>Calculator</div>
+   <div class=calculator-value><input type=number step=any value=~~value~~></div>
+   <div class=calculator-buttons>
+      <button data-array=buttons data-click=calculator.compute>~~display~~</button>
    </div>
-   <div>Total: <span class=calc-accumulator>0</span></div>
+   <div>Total: <span class=calculator-accumulator>~~accumulator~~</span></div>
 </div>
